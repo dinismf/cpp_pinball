@@ -38,7 +38,7 @@ int main(int, char const**)
     settings.antialiasingLevel = 8;
     
     TextureManager txtManager;
-	txtManager.loadTexture("background", "BackgroundGame.png");
+	txtManager.loadTexture("background", "resources\\BackgroundGame.png");
 
 	sf::Sprite background;
 	background.setTexture(txtManager.getTexture("background"));
@@ -52,23 +52,23 @@ int main(int, char const**)
     
     
     sf::Font arcadeFont;
-    arcadeFont.loadFromFile("BebasNeue Regular.otf");
+	arcadeFont.loadFromFile("resources\\BebasNeue Regular.otf");
 
     
     sf::Text highestScoreText = sf::Text("Top Score: " + std::to_string(g_iHighestScore), arcadeFont, 60);
-	highestScoreText.setColor(redCol);
+	highestScoreText.setFillColor(redCol);
     highestScoreText.setPosition(40, 5);
 
     sf::Text scoreText = sf::Text("Score: " + std::to_string(g_iScoreTotal), arcadeFont, 60);
-    scoreText.setColor(redCol);
+    scoreText.setFillColor(redCol);
     scoreText.setPosition(40, 80);
     
     sf::Text ballsLeftText = sf::Text("Balls: " + std::to_string(g_iBallsLeft), arcadeFont, 60);
-    ballsLeftText.setColor(redCol);
+    ballsLeftText.setFillColor(redCol);
     ballsLeftText.setPosition(500, 5);
 
 	sf::Text gameOverText = sf::Text("GAME OVER", arcadeFont, 150);
-	gameOverText.setColor(sf::Color::Black);
+	gameOverText.setFillColor(sf::Color::Black);
 	gameOverText.setPosition(100, 400);
     
     

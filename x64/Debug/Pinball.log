@@ -1,0 +1,49 @@
+﻿  Vector2D.cpp
+  TextureManager.cpp
+  roundBumper.cpp
+c:\users\dyn\desktop\pinball\src\roundbumper.cpp(15): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\users\dyn\desktop\pinball\src\roundbumper.cpp(29): warning C4305: 'argument': truncation from 'double' to 'const float'
+  rotationMat.cpp
+  rectPhys.cpp
+  rectangleBumper.cpp
+  rect.cpp
+  Randomiser.cpp
+  PhysicsShape.cpp
+  paddle.cpp
+c:\users\dyn\desktop\pinball\src\paddle.cpp(24): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\users\dyn\desktop\pinball\src\paddle.cpp(64): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\users\dyn\desktop\pinball\src\paddle.cpp(70): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\users\dyn\desktop\pinball\src\paddle.cpp(77): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\users\dyn\desktop\pinball\src\paddle.cpp(83): warning C4305: 'argument': truncation from 'double' to 'const float'
+  obbPhys.cpp
+  obb.cpp
+  manifold.cpp
+c:\users\dyn\desktop\pinball\src\manifold.cpp(183): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\dyn\desktop\pinball\src\manifold.cpp(184): warning C4305: 'initializing': truncation from 'double' to 'float'
+  main.cpp
+c:\users\dyn\desktop\pinball\src\main.cpp(89): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\users\dyn\desktop\pinball\src\main.cpp(90): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\users\dyn\desktop\pinball\src\main.cpp(92): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\users\dyn\desktop\pinball\src\main.cpp(93): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\users\dyn\desktop\pinball\src\main.cpp(94): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\users\dyn\desktop\pinball\src\main.cpp(96): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\users\dyn\desktop\pinball\src\main.cpp(97): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\users\dyn\desktop\pinball\src\main.cpp(102): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\users\dyn\desktop\pinball\src\main.cpp(103): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\users\dyn\desktop\pinball\src\main.cpp(105): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\users\dyn\desktop\pinball\src\main.cpp(108): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\users\dyn\desktop\pinball\src\main.cpp(109): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\users\dyn\desktop\pinball\src\main.cpp(111): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\users\dyn\desktop\pinball\src\main.cpp(112): warning C4305: 'argument': truncation from 'double' to 'const float'
+c:\users\dyn\desktop\pinball\src\main.cpp(155): warning C4305: 'argument': truncation from 'double' to 'const float'
+  CirclePhys.cpp
+  bumper.cpp
+  body.cpp
+c:\users\dyn\desktop\pinball\src\body.cpp(120): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\users\dyn\desktop\pinball\src\body.cpp(125): warning C4305: 'initializing': truncation from 'double' to 'float'
+  ball.cpp
+  Generating Code...
+     Creating library C:\Users\DYN\Desktop\Pinball\x64\Debug\Pinball.lib and object C:\Users\DYN\Desktop\Pinball\x64\Debug\Pinball.exp
+sfml-main-d.lib(MainWin32.cpp.obj) : warning LNK4204: 'C:\Users\DYN\Desktop\Pinball\x64\Debug\vc140.pdb' is missing debugging information for referencing module; linking object as if no debug info
+  Pinball.vcxproj -> C:\Users\DYN\Desktop\Pinball\x64\Debug\Pinball.exe
+  Pinball.vcxproj -> C:\Users\DYN\Desktop\Pinball\x64\Debug\Pinball.pdb (Full PDB)
