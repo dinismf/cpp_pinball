@@ -6,7 +6,7 @@ The project uses SFML for sprite rendering, whereas the code for physics, such a
 Date: 2014
 
 
-## Dependecies
+## Dependencies
 
 - Visual Studio 2015
 - SFML-2.4.2
