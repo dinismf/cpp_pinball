@@ -8,6 +8,7 @@ Date: 2014
 
 ## Dependecies
 
+- Visual Studio 2015
 - SFML-2.4.2
 
 ## Preview 
