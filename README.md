@@ -1,7 +1,7 @@
 ## Description 
 
 Pinball game developed in C++ as an assignment for the AI &amp; Physics Modelling module during BSc degree. 
-The project uses SFML for sprite rendering and a simple custom 2D physics framework for collision detection and impulse generation between circles, rectangles and rotated rectangles. Movement mechanics also follows EULER method for integration. 
+The project uses SFML for sprite rendering and a simple custom 2D physics library for collision detection and impulse generation between circles, rectangles and rotated rectangles. Movement mechanics also follows EULER method for integration. 
 
 Date: 2014
 
