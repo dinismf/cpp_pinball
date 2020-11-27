@@ -1,7 +1,7 @@
 ## Description 
 
-Basic pinball game developed in C++ as an assignment for the AI &amp; Physics Modelling module during BSc degree. 
-The project uses SFML for sprite rendering, whereas the code for physics, such as collision detection, impulses and movement mechanics was developed without frameworks. 
+Pinball game developed in C++ as an assignment for the AI &amp; Physics Modelling module during BSc degree. 
+The project uses SFML for sprite rendering and a simple custom 2D physics framework for collision detection and impulse generation between circles, rectangles and rotated rectangles. Movement mechanics also follows EULER method for integration. 
 
 Date: 2014
 
